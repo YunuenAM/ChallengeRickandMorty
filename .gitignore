@@ -1,0 +1,62 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base de datos SQLite
+*.sqlite
+*.sqlite-journal
+
+# Directorios de IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de compilación
+dist/
+build/
+out/
+
+# Archivos de coverage (pruebas)
+coverage/
+.nyc_output/
+
+# Archivos de depuración
+*.log
+
+# Archivos del sistema operativo
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de caché
+.cache/
+
+# Frontend específico
+/.sass-cache
+/assets/css/main.css.map
+/assets/js/main.js.map
+
+# Backend específico
+package-lock.json
+yarn.lock
+
+# Archivos temporales
+*.tmp
+*.temp

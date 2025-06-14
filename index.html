@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personajes de Rick and Morty</title>
+  <link rel="stylesheet" href="./frontend/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Personajes de Rick and Morty</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Buscar personaje...">
+      <button id="load-btn">Cargar Personajes</button>
+    </div>
+    <div id="loader" class="loader hidden">Cargando...</div>
+    <div id="characters-container" class="characters-grid"></div>
+    <div id="pagination" class="pagination"></div>
+  </div>
+  <script src="./frontend/js/app.js"></script>
+</body>
+</html>
